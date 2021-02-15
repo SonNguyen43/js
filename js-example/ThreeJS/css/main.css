@@ -1,0 +1,20 @@
+body { 
+    margin: 0; 
+    height: 100vh;
+    background-color:#000;
+}
+  
+canvas { 
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 5em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em;
+  }

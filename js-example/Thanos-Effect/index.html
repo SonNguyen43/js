@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thanos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="html2canvas.min.js"></script>
+    <!-- hiệu ứng các hạt tan rã -->
+    <script defer src="disintegrate.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body style="width: 100%; height: 100vh; overflow: hidden;">
+    <!-- data-dis-type: thuộc tính dữ liệu, đại diện cho loại phân rã -->
+    <!-- data-dis-particle-type: loại hạt muốn sử dụng -->
+    <!-- data-dis-reduction-factor: tạo ra các hạt nhỏ hơn -->
+    <div id="img" data-dis-type="simultaneous" data-dis-particle-type="thanosSnap" data-dis-reduction-factor="40"></div>
+</body>
+</html>

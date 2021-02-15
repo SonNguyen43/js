@@ -1,0 +1,35 @@
+*{
+    cursor:url('Sharingan.png'), auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+}
+
+.eyes{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye{
+    width: 270px;
+    height: 120px;
+    background: #000;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

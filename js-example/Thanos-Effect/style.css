@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("J2TEAM.jpg");
+    background-size: cover;
+    background-position: center;
+}
